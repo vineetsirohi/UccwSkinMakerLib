@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.vasudev.uccw_skin_maker.lib">
+
+    <application>
+
+        <meta-data android:name="in.vineetsirohi.uccwtheme"
+                   android:value="3" />
+
+        <provider android:name="lib.uccw_skin_maker.vasudev.in.uccwskinmakerlib.AssetsProvider"
+                  android:authorities="in.vasudev.example.uccwskin.uccw_skin_assets_provider"
+                  android:exported="true">
+        </provider>
+    </application>
+
+</manifest>
