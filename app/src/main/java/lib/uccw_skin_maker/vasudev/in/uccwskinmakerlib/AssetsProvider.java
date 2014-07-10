@@ -85,7 +85,7 @@ public class AssetsProvider extends ContentProvider {
             FileNotFoundException {
         String path = getPath(uri); //uri.getLastPathSegment();
         Log.d("AssetsProvider",
-                "in.vasudev.example.uccwskin.AssetsProvider.  openAssetFile" + ": " + path);
+                "in.vasudev.example.uccwskin.AssetsProvider.openAssetFile" + ": " + path);
 
         // Return the appropriate asset for the requested item
         if (path != null && !path.equals("")) {
